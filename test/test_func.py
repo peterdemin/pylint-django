@@ -66,6 +66,9 @@ def suite():
     if module_exists('rest_framework'):
         test_list += tests('external_drf', '')
 
+    if module_exists('psycopg2'):
+        test_list += tests('external_psycopg2', '')
+
     return unittest.TestSuite([unittest.makeSuite(test, suiteClass=unittest.TestSuite)
                                for test in test_list])
 
