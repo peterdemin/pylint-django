@@ -1,5 +1,8 @@
 # Changelog
 
+## Version 1.0.0
+* [#84](https://github.com/landscapeio/pylint-django/pull/84) Add support for UUIDField and django.contrib.postgres.fields
+
 ## Version 0.7.4
 * [#88](https://github.com/landscapeio/pylint-django/pull/88) Fixed builds with Django 1.10 (thanks to [federicobond](https://github.com/federicobond))
 * [#91](https://github.com/landscapeio/pylint-django/pull/91) Fixed race condition when running with pylint parallel execution mode (thanks to [jeremycarroll](https://github.com/jeremycarroll))
