@@ -2,6 +2,8 @@
 
 ## Version 1.0.0
 * [#84](https://github.com/landscapeio/pylint-django/pull/84) Add support for UUIDField and django.contrib.postgres.fields
+* [#92](https://github.com/landscapeio/pylint-django/pull/92) Add json field to WSGIRequest proxy 
+* [#100](https://github.com/landscapeio/pylint-django/pull/100) ugettext_lazy().format raises E1101 
 
 ## Version 0.7.4
 * [#88](https://github.com/landscapeio/pylint-django/pull/88) Fixed builds with Django 1.10 (thanks to [federicobond](https://github.com/federicobond))
